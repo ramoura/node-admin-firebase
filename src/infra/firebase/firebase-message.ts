@@ -11,11 +11,7 @@ export class FirebaseMessage implements SendMessage {
     return new Promise<string>((resolve, reject) => {
       const admin = require("firebase-admin");
 
-      var firebaseMessage = {
-        data: {
-          score: '850',
-          time: '2:45',
-        },
+      const firebaseMessage = {
         notification: {
           title: message.title,
           body: message.message,
