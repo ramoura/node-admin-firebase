@@ -2665,7 +2665,7 @@ firebase-admin@^8.13.0:
     "@types/node" "^8.10.59"
     dicer "^0.3.0"
     jsonwebtoken "^8.5.1"
-    node-forge "^0.7.6"
+    node-forge "^0.10.0"
   optionalDependencies:
     "@google-cloud/firestore" "^3.0.0"
     "@google-cloud/storage" "^4.1.2"
