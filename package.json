@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "firebase-admin": "^8.13.0",
     "inversify": "^5.0.1",
     "inversify-express-utils": "^6.3.2",
